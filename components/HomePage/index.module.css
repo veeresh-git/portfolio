@@ -1,0 +1,31 @@
+.HomePageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.HomePage {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.texts {
+  font-size: 105px;
+  font-weight: 700;
+}
+.whiteText {
+  color: white;
+  margin: 0px;
+  animation: animate 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation-fill-mode: backwards;
+}
+.redText {
+  color: #ea0f1e;
+  margin: 0px;
+  animation: animate 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation-fill-mode: backwards;
+}
+.porfilepic {
+  width: 100%;
+  height: auto;
+}
